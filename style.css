@@ -1,0 +1,272 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    height: 1650px;
+    width: 500px;
+    align-items: center;
+    margin: 160px auto;
+    position: relative;
+    background: #fafafa;
+    opacity: 1;
+    border-width: 1px;
+    border-color: #cfcfcf;
+    border-style: solid;
+    padding: 3%;
+}
+
+.obrazok{
+    top: 60px;
+    bottom: 40px;
+    padding-left: 75px ;
+    padding-right: 75px;
+    width: 350px;
+    height: 291px;  
+    opacity: 1;
+    align-items: center;
+    margin: 0;
+}
+
+h1{
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+    padding: 20px 140px ;
+    margin-bottom: 5px;
+}
+
+.line {
+    width: 60px; 
+    height: 2px; 
+    background-color: #407BFF; 
+    margin: 0px 220px 30px 220px; 
+}
+
+h2{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+    padding-top: 60px;
+}
+
+p{
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    opacity: 1;
+    color: #8B8B8B;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    padding: 0px 5px 0px 5px;
+}
+
+.tlacitko {
+    display: flex;
+    flex-direction: column;
+}
+.button-style{
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background-color: #407BFF;
+    border-radius: 20px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    margin:  15px 152px 0px 152px;
+    }
+
+.my-button{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #8B8B8B;
+    margin:  10px 140px;
+}
+
+.textA, .textB, .textC {
+    margin-bottom: 30px;
+}   
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    display: flex;
+    align-items: center;
+    width: 490px;
+    height: 80px;
+    background-color: white ;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    opacity: 1;
+    margin: 10px 5px;
+}
+
+.riadok {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img{
+ width: 45px;
+ height: 40px;
+ padding: 15px;
+}
+
+@media screen and (min-width: 600px) {
+    body {  
+     height: 1460px;
+     width: 700px;
+    }
+     
+    .obrazok {
+        height: 332px;
+        width: 400px;
+        margin-left: 90px ;
+        margin-right: 210px;
+    }
+
+    .line {
+        margin: 0px 320px 30px 320px ;
+    }
+     .tlacitko {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+    }
+
+    .textA, .textB, .textC {
+        margin-bottom: 30px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }  
+
+    .my-button {
+        margin:  10px 130px 30px 15px;
+    }
+
+    .button-style {
+        margin:  10px 0px 30px 170px;
+    }
+
+    .containerA, .containerB {
+     display: flex;
+     justify-content: center;
+    }
+
+    .box1, .box2, .box3, .box4, .box5, .box6  {
+    width: 230px;
+    height: 175px;
+    justify-content: center;
+     }
+
+    .riadok{
+     display: flex;
+     flex-direction:column;
+    }}
+
+@media screen and (min-width: 1100px) {
+        body {  
+            height: 1015px;
+            width: 1200px;
+        }
+        
+        header {
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        h1 {
+            margin: 133px 368px 10px 82px ;
+            text-align: left;
+            font-size: 28px;
+            padding: 0px;
+        }
+        
+        .obrazok {
+            order: 2; 
+            height: 354px;
+            width: 425px;
+            margin: 60px 110px 0px 0px;
+            padding: 0px;
+        }
+    
+        .nadpis {
+            display: flex;
+            flex-direction: column;
+        }
+        .textA{
+            text-align: left;
+            margin: 0px 94px 30px 82px;
+        }  
+
+        .line {
+            margin: 10px 522px 30px 82px ;
+        }
+
+        .my-button {
+            margin:  20px 147px 0px 0px;
+        }
+    
+        .button-style {
+            margin:  20px 20px 0px 82px;
+        }
+        
+        .containerA {
+            margin: 80px 0px 0px 80px;
+        }
+        .box1, .box2, .box3, .box4, .box5, .box6 {
+            height: 191px;
+            width: 170px;
+        }
+
+    .sekciaA {
+            display: flex;
+            flex-direction: row;
+        }
+
+    .sluzbyA {
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+    .N1 {
+        margin: 119px 260px 17px 50px;
+        padding: 0px;
+    }
+
+    .textB {
+        text-align: left;
+        margin: 0px 80px 0px 60px;
+        padding: 0px ;
+    }
+
+.sekciaB {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .containerB {
+        margin: 80px 80px 59px 0px;
+    }
+     .sluzbyB {
+    display: flex;
+    flex-direction: column;
+    }
+     .N2 {
+    margin: 119px 160px 17px 80px;
+    padding: 0px;
+    text-align: left;
+    }
+
+    .textC {
+    text-align: left;
+    margin: 0px 60px 97px 80px;
+    padding: 0%;
+}}
